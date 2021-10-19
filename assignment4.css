@@ -1,0 +1,69 @@
+﻿
+body{
+    font-family:Arial;
+	color:white;
+	background-image:linear-gradient(147deg, rgba(255,255,255,0.5)50%,rgba(255,255,255,0.7)50%),url(background1.jpg);
+	background-size:cover;
+    background-position:center;
+    position: relative;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.errorMessage {
+    color: red;
+    font-weight: bold;
+    font-size:0.75em;
+}
+input, label{
+    font-size:1.25em;
+}
+
+
+.form_header {
+    font-size: 25px;
+    font-family: 'DM sans';
+    font-weight: 700;
+    text-align: center;
+    color: #dfdfdf;
+    line-height: 50px;
+    text-transform: uppercase;
+    padding: 0px;
+}
+
+    .form_header h2::after {
+        content: "";
+        display: block;
+        width: 14vw;
+        border-bottom: 2px solid #cfd7df;
+        margin: auto;
+    }
+
+.form_div {
+    background-color: rgba(0,0,0,0.6);
+    width: 50vw;
+    height: 100%;
+}
+button{   
+    color:#fff;
+    background:black;
+    border:1px solid white;
+    padding:10px 30px;
+    font-family:'DM sans';
+    font-size:14px;
+    font-weight:700;
+    letter-spacing:2px; 
+    text-transform:uppercase;
+    margin:20px auto;
+    display:block;
+    transition: all 0.5s ease;
+}
+button:hover{
+    color:black;
+    opacity:1;
+    background:transparent;
+    transition:all 0.5s ease;
+}
+
+
+form{margin-left:100px}

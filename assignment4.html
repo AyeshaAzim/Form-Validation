@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Assignment 4</title>
+    <link href="assignment4.css "rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div class="form_div">
+
+        <form onsubmit="submitMessage();">
+            <div class="form_header">
+
+                <h2>Membership Registeration</h2>
+                <br>
+            </div>
+
+            <label for="firstname">First Name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </label>
+            <input type="text" id="fname" required="required" />
+            <br />
+            <p id="userFirstnameError" class="errorMessage"></p>
+            <br />
+
+
+            <label for="lastname">Last Name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </label>
+            <input type="text" id="lname" required="required" />
+            <br />
+            <p id="userLastnameError" class="errorMessage"></p>
+            <br />
+
+
+            <label for="address">Address: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </label>
+            <input type="text" id="address" required />
+            <br />
+            <p id="addressError" class="errorMessage"></p>
+            <br />
+
+
+            <label for="city">City:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </label>
+            <input type="text" id="city" required />
+            <br />
+            <p id="cityError" class="errorMessage"></p>
+            <br />
+
+
+            <label for="postalCode">Postal Code:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </label>
+            <input type="text" id="postalCode" required />
+            <br />
+            <p id="postalCodeError" class="errorMessage"></p>
+            <br />
+
+
+
+            <label for="province">Province:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </label>
+            <input type="text" id="province" required="required" />
+            <br />
+            <p id="provinceError" class="errorMessage"></p>
+            <br />
+
+
+            <label for="Age">Age:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </label>
+            <input type="number" id="age" required="required" />
+            <br />
+            <p id="ageError" class="errorMessage"></p>
+            <br />
+
+
+            <label for="password">Password:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </label>
+            <input type="password" id="password" required="required" />
+            <br />
+            <p id="passwordError" class="errorMessage"></p>
+            <br />
+
+
+            <label for="ConfirmPassword">Confirm Password:&nbsp; </label>
+            <input type="password" id="confirm" required="required" />
+            <br />
+            <p id="passwordError" class="errorMessage"></p>
+            <br />
+
+
+            <label for="Email">Email:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </label>
+            <input type="email" id="email" required="required" />
+            <br />
+            <p id="emailError" class="errorMessage"></p>
+            <br />
+
+            <p id="submissionConfirmation" class="errorMessage"></p>
+            <button type="submit" id="submit" value="Submit"> Register</button>
+            <button type="reset" value="Clear">Clear</button>
+            <br>
+
+        </form>
+        <footer style="margin-left:100px; margin-bottom:15px"><i>Copywrite &#169;-Ayesha Azim, Student ID: 301166757-Summer21 Assignment 4</i></footer>
+    </div>
+<script src="assignment4.js"></script>
+</body>
+</html>
